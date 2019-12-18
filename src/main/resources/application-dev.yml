@@ -1,0 +1,8 @@
+spring:
+  redis:
+    host: 127.0.0.1
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/exam?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+    username: root
+    password: 123
+    driver-class-name: com.mysql.cj.jdbc.Driver

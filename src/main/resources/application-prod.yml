@@ -1,0 +1,12 @@
+server:
+  ssl:
+    key-store: /usr/local/exam/ssl/tomcat.jks
+    key-password: Qwer!@#$%
+
+spring:
+  redis:
+    host: localhost
+  datasource:
+    url: jdbc:postgresql://localhost:5432/exam
+    username: postgres
+    password: 123456
